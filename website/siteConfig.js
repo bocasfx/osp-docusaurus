@@ -19,7 +19,7 @@ const siteConfig = {
   title: 'Open Systems Pharmacology Suite' /* title for your website */,
   tagline: '',
   url: 'https://bocasfx.github.io' /* your website url */,
-  baseUrl: '/' /* base url for your project */,
+  baseUrl: '/osp-docusaurus' /* base url for your project */,
   headerLinks: [
     {doc: 'about', label: 'Documentation'},
     { search: true }
