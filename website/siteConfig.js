@@ -20,7 +20,6 @@ const siteConfig = {
   tagline: '',
   url: '' /* your website url */,
   baseUrl: '/' /* base url for your project */,
-  projectName: 'osp',
   headerLinks: [
     {doc: 'about', label: 'Documentation'},
     { search: true }
@@ -55,8 +54,8 @@ const siteConfig = {
     'Copyright © ' +
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
-  // organizationName: 'deltice', // or set an env variable ORGANIZATION_NAME
-  // projectName: 'test-site', // or set an env variable PROJECT_NAME
+  organizationName: 'bocasfx', // or set an env variable ORGANIZATION_NAME
+  projectName: 'osp-docusaurus', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
