@@ -22,17 +22,22 @@ const siteConfig = {
   baseUrl: '/' /* base url for your project */,
   projectName: 'osp',
   headerLinks: [
-    {doc: 'home', label: 'Documentation'},
+    {doc: 'about', label: 'Documentation'},
+    { search: true }
   ],
   users,
   /* path to images for header/footer */
-  headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
+  headerIcon: 'img/osp_logo_small.png',
+  footerIcon: 'img/osp_logo_small.png',
   favicon: 'img/favicon.png',
   /* colors for website */
   colors: {
-    primaryColor: '#2E8555',
-    secondaryColor: '#205C3B',
+    primaryColor: '#333',
+    secondaryColor: '#666',
+  },
+  algolia: {
+    apiKey: "79665c9eade0a0ad6f55bb13f75be439",
+    indexName: "getstarted_actors"
   },
   /* custom fonts for website */
   /*fonts: {
