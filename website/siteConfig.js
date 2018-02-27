@@ -18,8 +18,8 @@ const users = [
 const siteConfig = {
   title: 'Open Systems Pharmacology Suite' /* title for your website */,
   tagline: '',
-  url: 'https://bocasfx.github.io' /* your website url */,
-  baseUrl: '/osp-docusaurus/' /* base url for your project */,
+  url: 'https://osp-docusaurus.netlify.com' /* your website url */,
+  baseUrl: '/' /* base url for your project */,
   editUrl: 'https://github.com/bocasfx/osp-docusaurus/tree/edit/docs/',
   headerLinks: [
     {doc: 'about', label: 'Documentation'},
@@ -36,8 +36,8 @@ const siteConfig = {
     secondaryColor: '#666',
   },
   algolia: {
-    apiKey: "79665c9eade0a0ad6f55bb13f75be439",
-    indexName: "getstarted_actors"
+    apiKey: '79665c9eade0a0ad6f55bb13f75be439',
+    indexName: 'getstarted_actors'
   },
   /* custom fonts for website */
   /*fonts: {
@@ -56,7 +56,7 @@ const siteConfig = {
     new Date().getFullYear() +
     ' Your Name or Your Company Name',
   organizationName: 'bocasfx', // or set an env variable ORGANIZATION_NAME
-  projectName: 'osp-docusaurus', // or set an env variable PROJECT_NAME
+  projectName: '', // or set an env variable PROJECT_NAME
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks
     theme: 'default',
