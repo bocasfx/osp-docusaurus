@@ -92,7 +92,7 @@ class Index extends React.Component {
               </li>
             </ul>
 
-            <div>Email</div>:
+            <div>Email:</div>
 
             <ul>
               <li>
