@@ -20,7 +20,7 @@ const siteConfig = {
   tagline: '',
   url: 'https://bocasfx.github.io' /* your website url */,
   baseUrl: '/osp-docusaurus/' /* base url for your project */,
-  editUrl: 'https://github.com/bocasfx/osp-docusaurus/tree/master/docs/',
+  editUrl: 'https://github.com/bocasfx/osp-docusaurus/tree/edit/docs/',
   headerLinks: [
     {doc: 'about', label: 'Documentation'},
     { search: true }
